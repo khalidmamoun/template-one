@@ -1948,6 +1948,12 @@ ul {
   z-index: 1000;
 }
 
+@media (max-width :767px ) {
+  .up {
+    display: none;
+  }
+}
+
 .up i {
   color: black;
   font-size: 30px;
