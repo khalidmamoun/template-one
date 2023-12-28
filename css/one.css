@@ -1976,6 +1976,11 @@ ul {
   height: 50px;
 }
 
+@media (max-width:767px) {
+.up {
+  display :none ;
+}
+}
 /*End up */
 
 /* start animation skills */
