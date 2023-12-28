@@ -1575,9 +1575,6 @@ ul {
   width: 100%;
 }
 
-
-
-
 /* End videos  */
 
 /* start stats */
@@ -1792,6 +1789,12 @@ ul {
   font-size: 40px;
   letter-spacing: -2px;
   color: var(--main-color);
+}
+
+@media (max-width: 767px) {
+  .discount .content .h2-form {
+    font-size: 25px;
+  }
 }
 
 .discount .content .h2-photo {
