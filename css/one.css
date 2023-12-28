@@ -1128,6 +1128,12 @@ ul {
   padding-bottom: var(--main--padding-bottom);
 }
 
+@media (max-width:767px) {
+  .events {
+    displa:none;
+  }
+}
+
 .events .container {
   padding-top: var(--main--padding-top);
   display: flex;
