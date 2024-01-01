@@ -709,7 +709,12 @@ ul {
   border: 1px solid #77777721;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.979);
 }
-
+@media (max-width:767px) {
+  .Testimonials .box .image img {
+    width: 60px;
+    height: 60px;
+  }
+}
 .Testimonials .box h3 {
   text-transform: uppercase;
   margin: 0 0 10px;
